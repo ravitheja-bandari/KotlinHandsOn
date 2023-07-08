@@ -1,8 +1,8 @@
 package com.rt.kotlinhandson.examples.inheritance
 
-class Teacher(name: String, age: Int): Person(name,age) {
+class Teacher(var t: String, age: Int): Person(t,age) {
 
     fun teach(){
-        println("$name can teach")
+        println("$t can teach")
     }
 }

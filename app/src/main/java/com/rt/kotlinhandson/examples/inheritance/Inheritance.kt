@@ -3,7 +3,7 @@ package com.rt.kotlinhandson.examples.inheritance
 
 fun main() {
 
-    var teacher:Teacher = Teacher("Ravi",32)
+    val teacher = Teacher("Ravi",32)
     teacher.walk()
     teacher.talk()
     teacher.teach()

@@ -1,12 +1,12 @@
 package com.rt.kotlinhandson.examples.inheritance
 
-class Player(name:String, age: Int): Person(name,age) {
+class Player(var n:String, age: Int): Person(n,age) {
 
     init {
         //init block is called when the Player class is instantiated
-        println("Player Init block - $name is a player")
+        println("Player Init block - $n is a player")
     }
     fun play(){
-        println("$name can play")
+        println("$n can play")
     }
 }
